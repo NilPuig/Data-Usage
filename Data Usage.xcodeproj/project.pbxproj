@@ -14,6 +14,10 @@
 		77049F0E220493EA009BA06E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77049F0C220493EA009BA06E /* LaunchScreen.storyboard */; };
 		77049F19220493EA009BA06E /* Data_UsageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049F18220493EA009BA06E /* Data_UsageTests.swift */; };
 		77049F24220493EA009BA06E /* Data_UsageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049F23220493EA009BA06E /* Data_UsageUITests.swift */; };
+		77049F362204951A009BA06E /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049F322204951A009BA06E /* UIViewController+Alert.swift */; };
+		77049F372204951A009BA06E /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049F332204951A009BA06E /* UIColor+Colors.swift */; };
+		77049F382204951A009BA06E /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049F342204951A009BA06E /* UIView+Shadow.swift */; };
+		77049F392204951A009BA06E /* UINavigationController+StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049F352204951A009BA06E /* UINavigationController+StatusBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		77049F1F220493EA009BA06E /* Data UsageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Data UsageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77049F23220493EA009BA06E /* Data_UsageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_UsageUITests.swift; sourceTree = "<group>"; };
 		77049F25220493EA009BA06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77049F322204951A009BA06E /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		77049F332204951A009BA06E /* UIColor+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
+		77049F342204951A009BA06E /* UIView+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		77049F352204951A009BA06E /* UINavigationController+StatusBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+StatusBar.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 			children = (
 				77049F03220493E9009BA06E /* AppDelegate.swift */,
 				77049F05220493E9009BA06E /* ViewController.swift */,
+				77049F312204951A009BA06E /* Extensions */,
 				77049F07220493E9009BA06E /* Main.storyboard */,
 				77049F0A220493EA009BA06E /* Assets.xcassets */,
 				77049F0C220493EA009BA06E /* LaunchScreen.storyboard */,
@@ -123,6 +132,17 @@
 				77049F25220493EA009BA06E /* Info.plist */,
 			);
 			path = "Data UsageUITests";
+			sourceTree = "<group>";
+		};
+		77049F312204951A009BA06E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77049F322204951A009BA06E /* UIViewController+Alert.swift */,
+				77049F332204951A009BA06E /* UIColor+Colors.swift */,
+				77049F342204951A009BA06E /* UIView+Shadow.swift */,
+				77049F352204951A009BA06E /* UINavigationController+StatusBar.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77049F362204951A009BA06E /* UIViewController+Alert.swift in Sources */,
+				77049F392204951A009BA06E /* UINavigationController+StatusBar.swift in Sources */,
+				77049F382204951A009BA06E /* UIView+Shadow.swift in Sources */,
+				77049F372204951A009BA06E /* UIColor+Colors.swift in Sources */,
 				77049F06220493E9009BA06E /* ViewController.swift in Sources */,
 				77049F04220493E9009BA06E /* AppDelegate.swift in Sources */,
 			);
