@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77049F04220493E9009BA06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049F03220493E9009BA06E /* AppDelegate.swift */; };
-		77049F06220493E9009BA06E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049F05220493E9009BA06E /* ViewController.swift */; };
+		77049F06220493E9009BA06E /* DataUsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049F05220493E9009BA06E /* DataUsageViewController.swift */; };
 		77049F09220493E9009BA06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77049F07220493E9009BA06E /* Main.storyboard */; };
 		77049F0B220493EA009BA06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77049F0A220493EA009BA06E /* Assets.xcassets */; };
 		77049F0E220493EA009BA06E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77049F0C220493EA009BA06E /* LaunchScreen.storyboard */; };
@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		77049F00220493E9009BA06E /* Data Usage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Data Usage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77049F03220493E9009BA06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77049F05220493E9009BA06E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77049F05220493E9009BA06E /* DataUsageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUsageViewController.swift; sourceTree = "<group>"; };
 		77049F08220493E9009BA06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77049F0A220493EA009BA06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77049F0D220493EA009BA06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,12 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				77049F03220493E9009BA06E /* AppDelegate.swift */,
-				77049F05220493E9009BA06E /* ViewController.swift */,
 				77049F312204951A009BA06E /* Extensions */,
-				77049F07220493E9009BA06E /* Main.storyboard */,
-				77049F0A220493EA009BA06E /* Assets.xcassets */,
-				77049F0C220493EA009BA06E /* LaunchScreen.storyboard */,
-				77049F0F220493EA009BA06E /* Info.plist */,
+				77049F402204965B009BA06E /* Resources */,
+				77049F3F2204964E009BA06E /* Storyboards */,
+				77049F3A220495AD009BA06E /* View Controllers */,
 			);
 			path = "Data Usage";
 			sourceTree = "<group>";
@@ -143,6 +141,32 @@
 				77049F352204951A009BA06E /* UINavigationController+StatusBar.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77049F3A220495AD009BA06E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77049F05220493E9009BA06E /* DataUsageViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		77049F3F2204964E009BA06E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				77049F0C220493EA009BA06E /* LaunchScreen.storyboard */,
+				77049F07220493E9009BA06E /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		77049F402204965B009BA06E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77049F0A220493EA009BA06E /* Assets.xcassets */,
+				77049F0F220493EA009BA06E /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +304,7 @@
 				77049F392204951A009BA06E /* UINavigationController+StatusBar.swift in Sources */,
 				77049F382204951A009BA06E /* UIView+Shadow.swift in Sources */,
 				77049F372204951A009BA06E /* UIColor+Colors.swift in Sources */,
-				77049F06220493E9009BA06E /* ViewController.swift in Sources */,
+				77049F06220493E9009BA06E /* DataUsageViewController.swift in Sources */,
 				77049F04220493E9009BA06E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
